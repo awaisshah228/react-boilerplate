@@ -8,7 +8,6 @@ const index = ({ children }) => {
       <Routes>
         <Route path="/" element={<App />} />
       </Routes>
-
       {children}
     </BrowserRouter>
   )
